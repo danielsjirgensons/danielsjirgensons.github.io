@@ -1,0 +1,44 @@
+[
+    {
+        "business": "Evolution",
+        "date": "05/2022 - Present",
+        "position": "Wordpress Frontend Developer",
+        "tech": ["html5", "css3", "js", "php", "sass", "wordpress", "git", "react"]
+    },
+    {
+        "business": "mtc.",
+        "date": "02/2022 - 05/2022",
+        "position": "Front-End Developer",
+        "tech": ["html5", "css3", "js", "sass", "vuejs"]
+    },
+    {
+        "business": "Adaptive Media",
+        "date": "03/2020 - 01/2022",
+        "position": "Wordpress Developer",
+        "tech": ["html5", "css3", "js", "php", "sass", "wordpress", "git", "cpanel"]
+    },
+    {
+        "business": "Webskola",
+        "date": "03/2020 - Now",
+        "position": "Front-End Lecturer",
+        "tech": ["html5", "css3", "js", "sass", "git"]
+    },
+    {
+        "business": "Fintelum",
+        "date": "05/2018 - 03/2020",
+        "position": "Front-End Developer",
+        "tech": ["html5", "css3", "js", "php", "sass", "git"]
+    },
+    {
+        "business": "Globitex",
+        "date": "10/2016 - 05/2018",
+        "position": "Junior Front-End Developer",
+        "tech": ["html5", "css3", "js", "php", "sass", "wordpress", "git", "react", "angular", "vuejs"]
+    },
+    {
+        "business": "Prof. Designs",
+        "date": "11/2013 - Now",
+        "position": "Full-Stack Developer",
+        "tech": ["html5", "css3", "js", "php", "sass", "wordpress", "git", "mysql"]
+    }
+]

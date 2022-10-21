@@ -1,0 +1,27 @@
+nav{
+    // border-bottom: 1px solid black;
+
+    .nav-row{
+        @include flex-center;
+    }
+
+    .global-logo{
+        line-height: $menuHeight;
+        margin-right: $margin;
+    }
+
+    .menu-toggle{
+        display: inline-block;
+        line-height: 30px;
+        @include x-padding(12px);
+        margin-left: auto;
+        border: 1px solid $black;
+        border-radius: 5px;
+        cursor: pointer;
+
+        svg{
+            position: relative;
+            top: 1px;
+        }
+    }
+}

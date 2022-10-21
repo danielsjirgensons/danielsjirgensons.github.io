@@ -1,0 +1,30 @@
+@import "../../styles/global/global";
+@import "../../styles/global/mixins";
+
+.social-buttons{
+    @include flex;
+    justify-content: center;
+
+    .btn{
+        display: inline-block;
+        background-color: $primary;
+        color: white;
+        line-height: 46px;
+        @include x-padding($margin);
+        @include x-margin($smallMargin);
+        border-radius: 5px;
+
+        i{
+            margin-right: $mediumMargin;
+        }
+
+        span{
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        // Button styles
+        &.github{background-color: #000000;}
+        &.linkedin{background-color: #0a66c2;}
+    }
+}

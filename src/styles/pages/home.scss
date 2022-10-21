@@ -1,0 +1,231 @@
+// Home header
+.home-header{
+    @include flex-center;
+    // min-height: 80vh;
+    min-height: 90vh;
+    padding-bottom: $menuHeight;
+
+    .head-content{
+        text-align: center;
+        padding-top: $bigMargin * 2;
+
+        .head-title{
+            margin-bottom: $mediumMargin * 2;
+
+            p{
+                font-size: 24px;
+                line-height: 1;
+
+                @media #{$bigDesktop} {
+                    font-size: 30px;
+                }
+            }
+
+            .heading{
+                @include flex-column;
+
+                @media #{$tablet} {
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+
+                h1, h2{
+                    @media #{$tablet} {
+                        font-size: 60px;
+                        line-height: 88px;
+                    }
+
+                    @media #{$bigDesktop} {
+                        font-size: 68px;
+                        line-height: 94px;
+                    }
+                }
+            }
+
+            h1{
+                // color: $primary;
+                @include color("primary");
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 88px;
+
+                @media #{$tablet} {
+                    margin-right: $mediumMargin;
+                }
+            }
+
+            h2{
+                font-size: 48px;
+                font-weight: 700;
+            }
+        }
+
+        button{}
+    }
+}
+
+// About content
+.about-content{
+    .row{align-items: center}
+
+    .about-text{
+        p{
+            text-align: justify;
+            line-height: 30px;
+            margin-bottom: $bigMargin;
+        }
+    }
+    
+    .tech-tags{
+        @include flex-wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        span{
+            display: block !important;
+            @include x-padding($smallMargin !important);
+            @include x-margin(0!important);
+        }
+    }
+}
+
+// Experience content
+.experience-content{
+    @include max-width(700px);
+    
+    .exp-list{
+        .start{
+            padding-bottom: $mediumMargin * 2;
+
+            .today{
+                text-align: center;
+                font-size: 24px;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin-bottom: $smallMargin;
+            }
+
+            hr{
+                width: 1px;
+                height: 40px;
+                margin: 0 auto;
+                border-left: none;
+            }
+        }
+
+        .exp-wrapper{
+            padding-bottom: $mediumMargin * 2;
+
+            .exp-block{
+                background-color: white;
+                padding: $mediumMargin * 2;
+                margin-bottom: $mediumMargin * 2;
+                border-radius: 10px;
+                cursor: pointer;
+
+                h5{
+                    color: $primary;
+                    font-weight: 800;
+                    line-height: 30px;
+                }
+
+                time{
+                    display: block;
+                    color: $darkGray;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+
+                label{
+                    display: block;
+                    color: $black;
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-top: $smallMargin;
+                    cursor: inherit;
+                }
+            }
+
+            &::after{
+                content: "";
+                display: block;
+                width: 1px;
+                height: 40px;
+                background-color: white;
+                @include x-margin(auto);
+            }
+
+            &:last-child{
+                &::after{
+                    content: none;
+                }
+            }
+        }
+    }
+
+    .exp-button{
+        text-align: center;
+
+        .button{
+            color: white;
+            border-color: white;
+        }
+    }
+}
+
+.work-info{
+    label{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    h5{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    time{
+        color: $darkGray;
+        font-size: 16px;
+    }
+
+    .work-tech{
+        @include flex-wrap;
+        margin-top: $mediumMargin;
+        @include x-margin(0 - $smallMargin);
+
+        li{
+            list-style: none;
+            font-size: 32px;
+            @include x-padding($smallMargin);
+
+            i{}
+        }
+    }
+}
+
+// Contact section
+.contact-section{
+    .contact-block{
+        background-color: white;
+        color: $black;
+        text-align: center;
+        padding: $mediumMargin * 2;
+        border-radius: 10px;
+
+        .socials{
+            h4{
+                font-size: 30px;
+                font-weight: 800;
+            }
+        }
+
+        .contact{
+            a{
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+}

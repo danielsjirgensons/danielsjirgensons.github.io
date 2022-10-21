@@ -1,0 +1,11 @@
+@import "../../styles/global/global";
+
+.global-logo{
+    @include color("black");
+    font-size: 24px;
+    font-weight: 800;
+
+    &.light{
+        @include color("white");
+    }
+}

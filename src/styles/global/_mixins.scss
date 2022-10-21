@@ -1,0 +1,107 @@
+@mixin full-fixed {
+	width: 100%;
+    position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+@mixin full-absolute {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+@mixin x-center-absolute{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+@mixin flex {
+	display: flex;
+}
+
+@mixin flex-wrap {
+	@include flex;
+	flex-wrap: wrap;
+}
+
+@mixin flex-center {
+	@include flex;
+	align-items: center;
+}
+
+@mixin flex-column{
+	@include flex;
+	flex-direction: column;
+}
+
+@mixin border-radius($radius){
+	border-radius: $radius;
+}
+
+@mixin x-padding($padding){
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+@mixin y-padding($padding){
+	padding-top: $padding;
+	padding-bottom: $padding;
+}
+
+@mixin x-margin($margin){
+	margin-left: $margin;
+	margin-right: $margin;
+}
+
+@mixin y-margin($margin){
+	margin-top: $margin;
+	margin-bottom: $margin;
+}
+
+@mixin icon-prop {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@mixin bg-prop {
+	@include icon-prop;
+	background-size: cover;
+}
+
+// @mixin ic-font-prop{
+// 	font-family: 'kurdoties' !important;
+// }
+
+@mixin transition($props){
+	transition: $props;
+}
+
+@mixin text-overflow{
+	display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin gradient($startColor, $endColor, $radius){
+	background: $startColor;
+	background: -moz-linear-gradient($radius, $startColor 0%, $endColor 100%);
+	background: -webkit-linear-gradient($radius, $startColor 0%, $endColor 100%);
+	background: linear-gradient($radius, $startColor 0%, $endColor 100%);
+}
+
+@mixin max-width($max-width) {
+	display: block;
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}

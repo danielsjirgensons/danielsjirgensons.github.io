@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    font-family: circe, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    &.theme-light{
+        background-color: $white;
+        color: $black;
+    }
+    &.theme-dark{
+        background-color: $black;
+        color: $white;
+    }
+}
+
+a{
+    @include color("primary");
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-weight: 800;
+}
+
+h4, h5{
+    font-weight: 700;
+}
+
+h1{font-size: 80px;}
+h2{font-size: 60px;}
+h3{font-size: 48px;}
+h4{font-size: 36px;}
+h5{font-size: 24px;}
+h6{font-size: 18px;}
+
+i{
+    line-height: 1;
+}
+
+// Main page styles
+section{
+    @include y-padding(50px);
+
+    .sect-head{
+        margin-bottom: $mediumMargin * 2;
+        
+        h2{
+            font-size: 36px;
+            font-weight: 700;
+        }
+    }
+}

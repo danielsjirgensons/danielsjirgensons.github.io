@@ -1,0 +1,63 @@
+@import "../../styles/global/global";
+@import "../../styles/global/mixins";
+
+// body{
+//     &.modal-open{
+//         overflow: hidden;
+//     }
+// }
+
+.modal{
+    &-body{
+        @include flex-center;
+        @include full-fixed;
+        overflow-y: auto;
+    }
+
+    &-overlay{
+        background-color: rgba($black, 0.5);
+        @include full-fixed;
+        z-index: 0;
+    }
+
+    &-wrapper{
+        position: relative;
+        // width: 100%;
+        @include max-width(568px);
+        padding: $bigMargin $margin;
+        margin: auto;
+        z-index: 1;
+    }
+}
+
+.modal-window{
+    @include background("white");
+    // @include max-width(568px);
+    @include color("black");
+    border-radius: 10px;
+
+    .modal-content{
+        padding: $mediumMargin $margin;
+
+        .modal-head{
+            @include flex-center;
+            margin-bottom: $mediumMargin;
+            
+            h2{
+                width: 100%;
+                font-size: 28px;
+            }
+
+            .close{
+                min-width: 42px;
+                text-align: center;
+                color: $darkGray;
+                line-height: 42px;
+                margin-top: -$mediumMargin;
+                margin-left: auto;
+                margin-right: -$margin;
+                cursor: pointer;
+            }
+        }
+    }
+}

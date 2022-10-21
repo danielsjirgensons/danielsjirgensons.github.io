@@ -1,0 +1,22 @@
+@import "../../styles/global/global";
+
+section{
+    &.black{
+        @include background("black");
+        @include color("white");
+    }
+
+    &.lightgray{
+        background-color: $gray;
+    }
+
+    &.purple{
+        @include background("primary");
+        color: white;
+    }
+
+    &.gray{
+        background-color: $darkGray;
+        color: white;
+    }
+}

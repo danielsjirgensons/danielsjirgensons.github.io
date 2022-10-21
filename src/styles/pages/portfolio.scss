@@ -1,0 +1,58 @@
+.work-loader{
+    text-align: center;
+    margin-top: $mediumMargin;
+    margin-bottom: $bigMargin;
+}
+
+.work-list{
+    @include flex-wrap;
+    @include x-margin(0 - $mediumMargin);
+    margin-top: $mediumMargin;
+    margin-bottom: $bigMargin;
+
+    li{
+        display: block;
+        width: 100%;
+        @include x-padding($mediumMargin);
+
+        @media #{$smallTablet} {
+            max-width: $full * 0.5;
+        }
+
+        @media #{$desktop} {
+            max-width: $full * 0.333333;
+
+            &:last-child{display: none}
+        }
+
+        a{
+            @include max-width(500px);
+            margin-bottom: $margin;
+            overflow: hidden;
+
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+                margin-bottom: $smallMargin;
+            }
+
+            .work-info{
+                h6{
+                    color: $black;
+                }
+
+                span{
+                    @include color("darkGray");
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+.work-list-button-row{
+    @include flex-column;
+    align-items: center;
+    margin-bottom: $bigMargin * 2;
+}

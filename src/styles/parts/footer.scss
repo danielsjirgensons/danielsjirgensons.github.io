@@ -1,0 +1,45 @@
+footer{
+    // background-color: $black;
+    @include background("black");
+    @include color("white");
+    // color: white;
+    @include y-padding($bigMargin);
+    border-top: 1px solid $darkGray;
+
+    .footer-logo{
+        text-align: center;
+        margin-bottom: $mediumMargin * 2;
+    }
+
+    .footer-row{
+        @include flex-column;
+        text-align: center;
+        margin-bottom: $mediumMargin;
+        
+        span{
+            font-size: 16px;
+            
+            a{
+                font-weight: 700;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .scroll-up{
+        display: block;
+        background-color: lighten($black, 10%);
+        max-width: 42px;
+        // height: 42px;
+        text-align: center;
+        line-height: 0;
+        padding: 12px;
+        @include x-margin(auto);
+        border-radius: 100%;
+        cursor: pointer;
+
+        svg{
+            fill: white;
+        }
+    }
+}
