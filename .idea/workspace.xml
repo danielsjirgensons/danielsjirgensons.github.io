@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f4b4387-a9d8-4c01-865f-e30491367eda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/Section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/parts/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/parts/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/parts/Experience.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/parts/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/parts/Tech.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Portfolio/Portfolio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Portfolio/parts/WorkList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/ContactCard/ContactCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/Navigation/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/SocialButtons/SocialButtons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/SocialButtons/SocialButtons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pages/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pages/portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/parts/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/parts/menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/plugins/animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/plugins/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="stage" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GQIpZsQxvBAmnf5x7ONctHxJ9W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f4b4387-a9d8-4c01-865f-e30491367eda" name="Changes" comment="" />
+      <created>1666314573891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666314573891</updated>
+      <workItem from="1666314574690" duration="1918000" />
+      <workItem from="1666370024006" duration="2011000" />
+    </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1666314654832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666314654832</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prod build">
+      <created>1666315046242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666315046242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated information">
+      <created>1666315150012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666315150012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="public gitignore">
+      <created>1666315213897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666315213897</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build">
+      <created>1666315930999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666315930999</updated>
+    </task>
+    <task id="LOCAL-00006" summary="react build">
+      <created>1666315993786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666315993786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved readme">
+      <created>1666316168678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666316168678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="clean site">
+      <created>1666316333850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666316333850</updated>
+    </task>
+    <task id="LOCAL-00009" summary="disabled portfolio page">
+      <created>1666316415273</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666316415273</updated>
+    </task>
+    <task id="LOCAL-00010" summary="build - without navigation">
+      <created>1666316496693</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666316496693</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added project files">
+      <created>1666371101842</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666371101842</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Version update">
+      <created>1666371611014</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666371611014</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="Merge branch 'stage'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;build/asset-manifest.json&#10;#&#9;build/static/js/main.cbc96e6d.js.LICENSE.txt&#10;#&#9;index.html&#10;#&#9;package-lock.json&#10;#&#9;src/App.tsx&#10;#&#9;src/index.tsx&#10;#&#9;src/pages/Homepage/parts/About.tsx&#10;#&#9;src/pages/Homepage/parts/Header.tsx&#10;#&#9;static/css/main.87cfee76.css&#10;#&#9;static/css/main.87cfee76.css.map&#10;#&#9;static/js/main.41b5c9ff.js&#10;#&#9;static/js/main.41b5c9ff.js.LICENSE.txt&#10;#&#9;static/js/main.41b5c9ff.js.map&#10;#&#9;static/js/main.83e2d81e.js.LICENSE.txt&#10;#&#9;yarn.lock" />
+    <MESSAGE value="prod build" />
+    <MESSAGE value="updated information" />
+    <MESSAGE value="public gitignore" />
+    <MESSAGE value="build" />
+    <MESSAGE value="react build" />
+    <MESSAGE value="moved readme" />
+    <MESSAGE value="clean site" />
+    <MESSAGE value="disabled portfolio page" />
+    <MESSAGE value="build - without navigation" />
+    <MESSAGE value="Added project files" />
+    <MESSAGE value="Version update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version update" />
+  </component>
+</project>
